@@ -92,46 +92,41 @@
 						<div class="row">
 							<div class="4u 12u(mobile)">
 								<article class="box style2">
-									<!--<a href="#" class="image featured"><img src="images/pic01.jpg" alt="" /></a>-->
-									<h3><a href="#">Magna feugiat</a></h3>
-									<p>Ornare nulla proin odio consequatdddddddddd ddddddddddd dddddddddddddddddddddddd dddddddddddddddddddddd ddddddddddddddddddddd dddddddddddddddddddddd ddddddddddddddd ddddddddddddd ddddddddddddddd ddddddddddddddd ddddddddddddd dddddddddd ddddddddd dddddddd dddddddd ddddddddddddd.</p>
+									<h3>Database Design</h3>
+									<p>PostgreSQL, introduction to relational and other database systems, SQL programming, database application programming, database design, and query effiency/optimization.</p>
 								</article>
 							</div>
 							<div class="4u 12u(mobile)">
 								<article class="box style2">
-									<a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
-									<h3><a href="#">Veroeros primis</a></h3>
-									<p>Ornare nulla proin odio consequat.</p>
+									<h3>Honors Linear Algebra</h3>
+									<p>Vector spaces, linear transformations and matrices, eigenvalues and diagonazibility, inner product spaces, etc.</p>
 								</article>
 							</div>
 							<div class="4u 12u(mobile)">
 								<article class="box style2">
-									<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
-									<h3><a href="#">Lorem ipsum</a></h3>
-									<p>Ornare nulla proin odio consequat.</p>
+									<h3>Data Structures and Algorithms</h3>
+									<p>Python, tree traversal algorithms, heaps, graph theory, dynamic programming, etc.</p>
 								</article>
 							</div>
 						</div>
 						<div class="row">
 							<div class="4u 12u(mobile)">
 								<article class="box style2">
-									<a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
-									<h3><a href="#">Tempus dolore</a></h3>
-									<p>Ornare nulla proin odio consequat.</p>
+									<h3>Probability and Statistics</h3>
+									<p>Probability, distributions of random variables, expectation, sampling distributions, confidence intervals, and hypothesis testing.</p>
 								</article>
 							</div>
 							<div class="4u 12u(mobile)">
 								<article class="box style2">
-									<a href="#" class="image featured"><img src="images/pic05.jpg" alt="" /></a>
-									<h3><a href="#">Feugiat aliquam</a></h3>
+									<h3>Parallel Programming</h3>
 									<p>Ornare nulla proin odio consequat.</p>
 								</article>
 							</div>
 							<div class="4u 12u(mobile)">
 								<article class="box style2">
 									<a href="#" class="image featured"><img src="images/pic06.jpg" alt="" /></a>
-									<h3><a href="#">Sed amet ornare</a></h3>
-									<p>Ornare nulla proin odio consequat.</p>
+									<h3><a href="#">Program Design</a></h3>
+									<p>Java, encapsulation, abstraction, test-driven development, and functional and object-oriented programming</p>
 								</article>
 							</div>
 						</div>
@@ -153,35 +148,27 @@
 					<div>
 						<div class="row">
 							<div class="12u">
-								<form method="post" action="#">
-									<div>
-										<div class="row">
-											<div class="6u 12u(mobile)">
-												<input type="text" name="name" id="name" placeholder="Name" />
-											</div>
-											<div class="6u 12u(mobile)">
-												<input type="text" name="email" id="email" placeholder="Email" />
-											</div>
-										</div>
-										<div class="row">
-											<div class="12u">
-												<input type="text" name="subject" id="subject" placeholder="Subject" />
-											</div>
-										</div>
-										<div class="row">
-											<div class="12u">
-												<textarea name="message" id="message" placeholder="Message"></textarea>
-											</div>
-										</div>
-										<div class="row 200%">
-											<div class="12u">
-												<ul class="actions">
-													<li><input type="submit" value="Send Message" /></li>
-													<li><input type="reset" value="Clear Form" class="alt" /></li>
-												</ul>
-											</div>
-										</div>
-									</div>
+								<form class="form-horizontal" role="form" method="POST" action="https://formspree.io/jungwoolee98@gmail.com" >
+              <div class="form-group wow fadeInUp">
+                <label class="sr-only" for="c_name">Name</label>
+                <input type="text" id="c_name" class="form-control" name="c_name" placeholder="Name">
+              </div>
+
+              <div class="form-group wow fadeInUp" data-wow-delay=".1s">
+                <label class="sr-only" for="c_email">Email</label>
+                <input type="email" id="c_email" class="form-control" name="c_email" placeholder="E-mail">
+              </div>
+
+              <div class="form-group wow fadeInUp" data-wow-delay=".2s">
+                <textarea class="form-control" id="c_message" name="c_message" rows="7" placeholder="Message"></textarea>
+              </div>
+
+
+
+              <button type="submit" name="submit" value="Send" class="btn btn-lg btn-block wow fadeInUp" data-wow-delay=".3s">Send Message</button>
+
+
+        
 								</form>
 							</div>
 						</div>
